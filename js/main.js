@@ -6,8 +6,8 @@ var s = function () { function e(t, r, n) { var l = this; if (function (e, t) { 
 
 $(function () {
     var instance = new vidbg('.video', {
-        mp4: 'video/world.mp4',
-        webm: 'video/world.webm',
+        mp4: '../video/world.mp4',
+        webm: '../video/world.webm',
         overlay: false
     });
 
